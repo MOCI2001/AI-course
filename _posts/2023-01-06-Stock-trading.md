@@ -349,7 +349,7 @@ model.compile(loss='mse', optimizer='adam')
 
 ## Exercises:
 ### Stock DQN
-**Kaggle:** [Stock-DQN](https://www.kaggle.com/moci2001/stock-dqn1)<br>
+**Kaggle:** [MOCI2001/Stock-DQN](https://www.kaggle.com/moci2001/stock-dqn1)<br>
 `cd ~/RL-gym/stock`<br>
 `python train_dqn.py`<br>
 ![](https://github.com/MOCI2001/AI-course/blob/gh-pages/images/stock_dqn.png?raw=true)

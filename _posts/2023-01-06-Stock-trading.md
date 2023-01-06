@@ -300,59 +300,6 @@ RL can be divided into Model-Based RL (MBRL) and Model-Free RL (MFRL). Model-bas
 ![](https://www.endtoend.ai/assets/blog/rl-weekly/36/muzero.png)
 
 ---
-### Minigo
-**Code:** [tensorflow minigo](https://github.com/tensorflow/minigo)<br>
-
-### ELF OpenGo
-**Code:** [https://github.com/pytorch/ELF](https://github.com/pytorch/ELF)<br>
-ELF is an Extensive, Lightweight, and Flexible platform for game research. <br>
-We have used it to build our Go playing bot, ELF OpenGo, which achieved a 14-0 record versus four global top-30 players in April 2018. The final score is 20-0 (each professional Go player plays 5 games).<br>
-
-**Blog:** [A new ELF OpenGo bot and analysis of historical Go games](https://ai.facebook.com/blog/open-sourcing-new-elf-opengo-bot-and-go-research/)<br>
-![](https://scontent.ftpe3-2.fna.fbcdn.net/v/t39.2365-6/52493263_1313343392140217_5544097798909067264_n.gif?_nc_cat=102&ccb=1-5&_nc_sid=ad8a9d&_nc_ohc=jeW2W5LSSzoAX--ger8&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT-2aLF-P6DmbL0eDET98OEtOubyWBSnlRmCm_1wCiXwfw&oe=61C3480E)
-
----
-### Othello Zero
-![](http://web.stanford.edu/~surag/posts/images/lategame.svg)
-**Code:** [suragnair/alpha-zero-general](https://github.com/suragnair/alpha-zero-general)<br>
-`git clone https://github.com/suragnair/alpha-zero-general`<br>
-`cd alpha-zero-general`<br>
-`pip install coloredlogs`<br>
-To start training a model for Othello:<br>
-`python main.py`<br>
-
-**Blog:** [A Simple Alpha(Go) Zero Tutorial](http://web.stanford.edu/~surag/posts/alphazero.html)<br>
-a PyTorch model for 6x6 Othello (~80 iterations, 100 episodes per iteration and 25 MCTS simulations per turn).<br>
-This took about 3 days on an NVIDIA Tesla K80. <br>
-To play othello (using `pretrained_models/othello/pytorch/.`)<br>
-`python pit.py`<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/AlphaZero_othello.png?raw=true)
-
----
-### Chess Zero
-**Code:** [Zeta36/chess-alpha-zero](https://github.com/Zeta36/chess-alpha-zero)<br> 
-
-<img width="50%" height="50%" src="https://user-images.githubusercontent.com/4205182/34057277-e9c99118-e19b-11e7-91ee-dd717f7efe9d.PNG">
-
----
-### AlphaStar
-**Blog:** [AlphaStar: Mastering the real-time strategy game StarCraft II](https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii)<br>
-![](https://lh3.googleusercontent.com/ckm-3GlBQJ4zbNzfiW97yPqj5PVC0qIbRg42FL35EbDkhWoCNxyNZMMJN-f6VZmLMRbyBk2PArLQ-jDxlHbsE3_YaDUmcxUvMf8M=w1440-rw-v1)
-**Blog:** [AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning](https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning)<br>
-**Code:** [PySC2 - StarCraft II Learning Environment](https://github.com/deepmind/pysc2)<br>
-<iframe width="964" height="542" src="https://www.youtube.com/embed/KPLYhRBCcvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-### [OpenAI Five](https://openai.com/blog/openai-five/) at Dota2
-<iframe width="964" height="542" src="https://www.youtube.com/embed/UZHTNBMAfAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-### [DeepMind FTW](https://deepmind.com/blog/article/capture-the-flag-science)
-![](https://lh3.googleusercontent.com/CFlAYmP49qitU-SOP_PaKtV1kOrlpNnvo4oEDFhyxelrVwKyAbkdXwUuDFRTmiRSQle4955mmOAB4jrrIrWzIXDt8hOajZGtJzNaDRw=w1440-rw-v1)
-![](https://lh3.googleusercontent.com/RterJzRGidwT9R_Dqeu5LY5MZPjjYRc-MQdQyca7gACnA7w0bjCu_hIcoXLC4xV5zebvdZnN7ocZkemGnF4K7_p5SMZCLRWbNq1IDQ=w1440-rw-v1)
-<img width="50%" height="50%" src="https://lh3.googleusercontent.com/lxvZW4tdNAmYZ8ku873U4XYa-SljFgh8EPHG9-HbkqdjTBjEyktRSBTQGML6oBcjkYIJqnoXAnp50Z8t876WaucgotFlcTgfN8urJg=w1440-rw-v1">
-
----
 
 ## Unsupervised Learning
 

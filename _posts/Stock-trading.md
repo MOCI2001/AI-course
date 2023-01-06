@@ -2,7 +2,7 @@
 layout: post
 title: Stock-trading
 author: [MOCI2001]
-category: [Final Project]
+category: [Lecture]
 tags: [jekyll, ai]
 ---
 

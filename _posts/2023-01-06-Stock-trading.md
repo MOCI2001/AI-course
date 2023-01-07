@@ -364,4 +364,4 @@ model.compile(loss='mse', optimizer='adam')
 <br>
 <br>
 
-*This site was last updated {{ site.time | date: 01 06, 2023 }}.*
+*This site was last updated {{ site.time | date: "%B %d, %Y" }}.*
